@@ -5,19 +5,20 @@ import "./style.css"
 
 const btn = document.querySelector('.home');
 btn.addEventListener('click', ()=>{
-    btn.innerHTML = "";
+    content.innerHTML = "";
     loadhome();
 
 });
 const btn1 = document.querySelector('.menu');
 btn1.addEventListener('click', ()=>{
-    btn1.innerHTML = "";
+    content.innerHTML = "";
     loadmenu();
 
 });
 const btn2 = document.querySelector('.contact');
 btn2.addEventListener('click', ()=>{
-    btn2.innerHTML = "";
+    content.innerHTML = "";
     loadcontact();
 
 });
+loadhome();

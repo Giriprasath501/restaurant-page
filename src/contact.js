@@ -2,7 +2,7 @@ export function loadcontact(){
     const content = document.getElementById('content');
     const recipediv = document.createElement('div');
     recipediv.className = 'box';
-    recipediv.innerHTML = `<h1>Recipes</h1>
+    recipediv.innerHTML = `<h1>lion</h1>
     <p>
         Discover a variety of delicious recipes ranging from quick meals to traditional dishes. 
         Perfect for everyday cooking or special occasions. 
@@ -14,7 +14,7 @@ export function loadcontact(){
     
     const sweetdiv = document.createElement('div');
     sweetdiv.className= 'box';
-    sweetdiv.innerHTML = `<h1>Recipes</h1>
+    sweetdiv.innerHTML = `<h1>dog</h1>
     <p>
         Discover a variety of delicious recipes ranging from quick meals to traditional dishes. 
         Perfect for everyday cooking or special occasions. 
@@ -26,7 +26,7 @@ export function loadcontact(){
     
     const snackdiv = document.createElement('div');
     snackdiv.className= 'box';
-    snackdiv.innerHTML = `<h1>Recipes</h1>
+    snackdiv.innerHTML = `<h1>cat</h1>
     <p>
         Discover a variety of delicious recipes ranging from quick meals to traditional dishes. 
         Perfect for everyday cooking or special occasions. 

@@ -14,7 +14,7 @@ export function loadhome(){
     
     const sweetdiv = document.createElement('div');
     sweetdiv.className = 'box';
-    sweetdiv.innerHTML = `<h1>Recipes</h1>
+    sweetdiv.innerHTML = `<h1>snack</h1>
     <p>
         Discover a variety of delicious recipes ranging from quick meals to traditional dishes. 
         Perfect for everyday cooking or special occasions. 
@@ -26,7 +26,7 @@ export function loadhome(){
     
     const snackdiv = document.createElement('div');
     snackdiv.className= 'box';
-    snackdiv.innerHTML = `<h1>Recipes</h1>
+    snackdiv.innerHTML = `<h1>sweet</h1>
     <p>
         Discover a variety of delicious recipes ranging from quick meals to traditional dishes. 
         Perfect for everyday cooking or special occasions. 
